@@ -1,11 +1,11 @@
 function cargar(){
     document.getElementById("texto").style.display = "none";
-    var audio_intro = document.getElementById("audio-intro");
-    audio_intro.play();
 }
 
 
 function validarEntrada(){
+    var audio_intro = document.getElementById("audio-intro");
+    audio_intro.play();
     setTimeout(() => {
         //Aparece texto
         document.getElementById("texto").style.display = "flex";
@@ -17,7 +17,7 @@ function validarEntrada(){
     
     setTimeout(() => {
         document.getElementById("primero").textContent = "";
-        document.getElementById("segundo").textContent = "LA MEJOR PRODUCCION AUDIOVISUAL";
+        document.getElementById("segundo").textContent = `LA MEJOR PRODUCCION AUDIOVISUAL`
         
     }, 5000);
     
@@ -38,7 +38,7 @@ function validarEntrada(){
 
     setTimeout(() => {
         document.getElementById("quinto").textContent = "";
-        document.getElementById("sexto").textContent = `MECIONES ESPECIALES: VOCES: @angeldm9 IMAGEN: @angeldm9  IDEA ORIGINAL: YO  TODO LO DEMÁS: YO` ;
+        document.getElementById("sexto").textContent = `VOCES: @angeldm9 IMAGEN: @angeldm9  IDEA ORIGINAL: YO  TODO LO DEMÁS: YO` ;
     }, 17000);
 
     setTimeout(() => {
@@ -48,7 +48,8 @@ function validarEntrada(){
 
     setTimeout(() => {
         document.getElementById("sexto").textContent = "";
-        document.getElementById("septimo").textContent = `CHOOSE YOUR GELU` ;
+        document.getElementById("septimo").textContent = `EN CONSTRUCCIÓN \n 
+        ...` ;
     }, 29000);
     
 
