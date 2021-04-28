@@ -48,8 +48,7 @@ function validarEntrada(){
 
     setTimeout(() => {
         document.getElementById("sexto").textContent = "";
-        document.getElementById("septimo").textContent = `EN CONSTRUCCIÓN \n 
-        ...` ;
+        document.getElementById("septimo").textContent = `EN CONSTRUCCIÓN`;
     }, 29000);
     
 
