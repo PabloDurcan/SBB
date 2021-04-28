@@ -1,11 +1,11 @@
 function cargar(){
     document.getElementById("texto").style.display = "none";
-    let audio_intro = document.getElementById("audio-intro");
-    audio_intro.play();
 }
 
 
 function validarEntrada(){
+    let audio_intro = document.getElementById("audio-intro");
+    audio_intro.play();
     setTimeout(() => {
         //Aparece texto
         document.getElementById("texto").style.display = "flex";
