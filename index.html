@@ -9,16 +9,26 @@
 </head>
 <body onload="cargar()">
     <div class="wrapper">
-        <div class="texto">
+
+        <div class="intro" id="intro">
+            <h1>¿DESEA COMENZAR?</h1>
+            <br>
+            <button onclick="validarEntrada()">COMENZAR</button>
+        </div>
+
+        <div class="texto" id="texto">
             <h1 id="primero" class="primero"></h1>
             <h1 id="segundo" class="segundo"></h1>
             <h1 id="tercero" class="segundo"></h1>
-
+            <h1 id="cuarto" class="segundo"></h1>
+            <h1 id="quinto" class="segundo"></h1>
+            <h1 id="sexto" class="segundo"></h1>
+            <h1 id="septimo" class="segundo"></h1>
+            <h1 id="octavo" class="segundo"></h1>
         </div>
-
-
     </div>
 
+    <audio value="PLAY" src="/Audios/musica_intro.mp3" id="audio-intro"></audio>
 
     <script src="codigo.js"></script>
 </body>
