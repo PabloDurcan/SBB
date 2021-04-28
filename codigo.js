@@ -5,8 +5,8 @@ function cargar(){
 }
 
 
-var audio_intro = document.getElementById("audio-intro");
 function validarEntrada(){
+    let audio_intro = document.getElementById("audio-intro");
     audio_intro.play();
     setTimeout(() => {
         //Aparece texto
