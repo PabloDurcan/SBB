@@ -132,7 +132,7 @@ h1{
 @media (max-width: 650px){
     body{
         background-image: url('universo.png');
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         color: rgb(255, 255, 255);
     }
 
