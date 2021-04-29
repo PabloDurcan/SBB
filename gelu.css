@@ -8,7 +8,7 @@
 }
 
 body{
-    background-image: url('universo2.png');
+    background-image: url('Fotos/universo2.png');
     background-size: 100%;
     color: rgb(255, 255, 255);
     text-shadow: 0px 0px 9px rgba(158, 149, 0, 1);  
@@ -131,7 +131,7 @@ h1{
 
 @media (max-width: 650px){
     body{
-        background-image: url('universo.png');
+        background-image: url('Fotos/universo.png');
         background-repeat: no-repeat;
         color: rgb(255, 255, 255);
     }
