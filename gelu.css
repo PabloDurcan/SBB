@@ -2,16 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 *{
-
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 body{
-    background: black;
-    color: white;
-    font-family: 'Noto Sans JP', sans-serif;
+    background-image: url('universo2.png');
+    background-size: 100%;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 0px 9px rgba(158, 149, 0, 1);  
+      font-family: 'Noto Sans JP', sans-serif;
     font-size: 2rem;
 }
 
@@ -30,6 +31,7 @@ body{
     text-align: center;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .intro{
@@ -59,10 +61,12 @@ h1{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .tercero{
     display: none;
+    font-size: 2rem;
 }
 
 .div-sexto{
@@ -96,19 +100,25 @@ h1{
 }
 
 .Btn-fotos{
-    background: black;
+    box-sizing: border-box;
     border: 0px;
+    padding: 0;
+    height: 650px;
 }
 /*FOTOS COMUN------------------------------*/
 .foto{
     width: 30%;
-    padding: 1rem;
     height: 100%;
+    padding: 0.5rem;
+    height: 750px;
+    margin-bottom: 2rem;
 }
 
 .imagen{
     width: 100%;
-    max-height: 593px;
+    max-height: 650px;
+    padding: 0;
+    height: 650px;
 }
 
 .fotos-audios{
@@ -120,6 +130,12 @@ h1{
 }
 
 @media (max-width: 650px){
+    body{
+        background-image: url('universo.png');
+        background-repeat: no-repeat;
+        color: rgb(255, 255, 255);
+    }
+
     .texto{
         width: 60%;
         font-size: 1.6rem;
@@ -156,8 +172,12 @@ h1{
 
     .foto{
         width: 30%;
-        height: 100%;
-        padding: 0;
+        height: 130px;
+        padding: 0.2rem;
+    }
+
+    .Btn-fotos{
+        height: 130px;
     }
 
 
@@ -179,7 +199,7 @@ h1{
     }
 
     .imagen{
-        padding: 0.2rem;
+        padding: 0rem;
         height: 100%;
         max-height: 130px;
     }
