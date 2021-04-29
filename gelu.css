@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
 *{
 
@@ -16,7 +17,6 @@ body{
 
 .wrapper{
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,27 +46,144 @@ h1{
     line-height: 6rem;
 }
 
+.Btn{
+    font-size: 2rem;
+    padding: 0.8rem;
+    border-radius: 10px;
+    outline:none;
+    border: 3px solid red;
+}
+
+.final-diapo{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tercero{
+    display: none;
+}
+
+.div-sexto{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuerpo{
+    display: none;
+    flex-direction: column;
+}
+
+.cabecera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.cabecera-comi{
+    font-family: 'Rubik', sans-serif;
+}
+
+.your{
+    color: red;
+}
+
+.Btn-fotos{
+    background: black;
+    border: 0px;
+}
+/*FOTOS COMUN------------------------------*/
+.foto{
+    width: 30%;
+    padding: 1rem;
+    height: 100%;
+}
+
+.imagen{
+    width: 100%;
+    max-height: 593px;
+}
+
+.fotos-audios{
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 650px){
-    #sexto{
-        font-size: 2rem;
+    .texto{
+        width: 60%;
+        font-size: 1.6rem;
     }
 
-    .texto{
-        width: 55%;
-        font-size: 1.6rem;
-
+    h1{
+        font-size: 2.8rem;
     }
 
     .texto h1{
-        line-height: 5rem;
+        line-height: 4rem;
     }
 
-    button{
-        font-size: 2rem;
+    .Btn{
+        font-size: 1.5rem;
         padding: 0.8rem;
         border-radius: 10px;
         outline:none;
         border: 3px solid red;
     }
+
+    .div-sexto h1{
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    .div-sexto{
+        width: 100%;
+    }
+
+    .tercero{
+        font-size: 2rem;
+    }
+
+    .foto{
+        width: 30%;
+        height: 100%;
+        padding: 0;
+    }
+
+
+    .cabecera{
+        margin-bottom: 1rem;
+        margin-top: 2rem;
+    }
+
+    .cabecera h1{
+        line-height: 3.3rem;
+    }
+
+    .fotos-audios{
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .imagen{
+        padding: 0.2rem;
+        height: 100%;
+        max-height: 130px;
+    }
+
+    
 }
 
